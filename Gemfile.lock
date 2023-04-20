@@ -2,9 +2,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    date (3.3.3)
     json (2.6.3)
     nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
+    open-uri (0.3.0)
+      stringio
+      time
+      uri
     parallel (1.23.0)
     parser (3.2.2.0)
       ast (~> 2.4.1)
@@ -25,13 +30,18 @@ GEM
     rubocop-ast (1.28.0)
       parser (>= 3.2.1.0)
     ruby-progressbar (1.13.0)
+    stringio (3.0.6)
+    time (0.2.2)
+      date
     unicode-display_width (2.4.2)
+    uri (0.12.1)
 
 PLATFORMS
   x86_64-darwin-20
 
 DEPENDENCIES
   nokogiri
+  open-uri
   rubocop
 
 BUNDLED WITH
